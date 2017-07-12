@@ -43,7 +43,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in Sydney and move the camera
         LatLng CBNU = new LatLng(36.628305, 127.458241);
-        mMap.addMarker(new MarkerOptions().position(CBNU).title("충북대학교"));
+        mMap.addMarker(new MarkerOptions().position(CBNU).title("충북대"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CBNU, 13));
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
